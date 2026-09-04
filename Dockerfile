@@ -12,4 +12,4 @@ FROM eclipse-temurin:21-jre
 WORKDIR /app
 COPY --from=build /app/target/*.jar api-gestion-events.jar
 EXPOSE 8080
-CMD ["java", "-jar", "api-gestion.jar"]
+CMD ["java", "-jar", "api-gestion-events.jar"]
