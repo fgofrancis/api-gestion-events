@@ -1,0 +1,124 @@
+2026-09-01 00:08:06.564 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-01 00:08:06.903 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-09-01 00:08:06.913 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-01 00:08:06.922 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-09-01 00:08:07.566 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-09-01 10:07:55.037 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-09-01 10:07:55.096 INFO  c.gestion.eventos.api.ApiApplication - Starting ApiApplication using Java 24.0.1 with PID 20388 (D:\Francis\PROYECTOS\Pry_technologyInt_Eventos\api-eventos-tech-main\target\classes started by franc in D:\Francis\PROYECTOS\Pry_technologyInt_Eventos\api-eventos-tech-main)
+2026-09-01 10:07:55.097 DEBUG c.gestion.eventos.api.ApiApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2026-09-01 10:07:55.098 INFO  c.gestion.eventos.api.ApiApplication - The following 1 profile is active: "dev"
+2026-09-01 10:07:56.502 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-01 10:07:56.606 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 88 ms. Found 5 JPA repository interfaces.
+2026-09-01 10:07:57.460 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-01 10:07:57.479 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-01 10:07:57.481 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-01 10:07:57.482 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2026-09-01 10:07:57.579 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-09-01 10:07:57.580 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2428 ms
+2026-09-01 10:07:57.799 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-01 10:07:57.885 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2026-09-01 10:07:57.947 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-09-01 10:07:58.361 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-01 10:07:58.424 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-09-01 10:08:00.219 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@8ee03f5
+2026-09-01 10:08:00.220 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-09-01 10:08:00.670 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 18.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-01 10:08:01.672 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-01 10:08:04.086 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-01 10:08:04.507 DEBUG c.g.e.a.s.j.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-09-01 10:08:04.630 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-01 10:08:05.376 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-09-01 10:08:05.520 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-01 10:08:06.318 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-09-01 10:08:06.348 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-01 10:08:06.361 INFO  c.gestion.eventos.api.ApiApplication - Started ApiApplication in 12.079 seconds (process running for 12.699)
+2026-09-01 10:08:24.454 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-01 10:08:24.454 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-01 10:08:24.455 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-09-01 10:08:25.460 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 538 ms
+2026-09-01 10:11:49.472 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 0, size 1, sort: ["string"]: ASC].
+2026-09-01 10:12:57.829 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 0, size 10, sort: name: ASC].
+2026-09-01 10:12:59.015 DEBUG c.g.e.api.controller.EventController - Devolviendo 60 eventos paginados.
+2026-09-01 10:12:59.017 WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-09-01 15:42:10.965 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@681d3efd (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-09-01 15:42:11.111 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m36s446ms379µs300ns).
+2026-09-01 15:42:11.123 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@16a4a4d5 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-09-01 15:42:11.130 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@5af2b282 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-09-01 15:42:11.195 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@5b9985f7 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-09-01 15:42:11.242 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@79708e7c (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-09-01 15:42:11.255 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@4ac10f8b (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-09-01 15:42:11.276 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@568c2f3 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-09-01 15:42:11.460 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@12c95994 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-09-01 15:42:11.461 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@6f3726df (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-09-01 15:42:11.477 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2dc8c1e5 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-09-01 18:31:42.440 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-01 18:31:42.965 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-09-01 18:31:42.976 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-01 18:31:42.983 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-09-01 18:31:43.637 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-09-01 18:31:48.881 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-09-01 18:31:48.944 INFO  c.gestion.eventos.api.ApiApplication - Starting ApiApplication using Java 24.0.1 with PID 11968 (D:\Francis\PROYECTOS\Pry_technologyInt_Eventos\api-eventos-tech-main\target\classes started by franc in D:\Francis\PROYECTOS\Pry_technologyInt_Eventos\api-eventos-tech-main)
+2026-09-01 18:31:48.945 DEBUG c.gestion.eventos.api.ApiApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2026-09-01 18:31:48.946 INFO  c.gestion.eventos.api.ApiApplication - The following 1 profile is active: "dev"
+2026-09-01 18:31:50.260 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-01 18:31:50.376 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 96 ms. Found 5 JPA repository interfaces.
+2026-09-01 18:31:51.211 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-01 18:31:51.225 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-01 18:31:51.228 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-01 18:31:51.228 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2026-09-01 18:31:51.315 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-09-01 18:31:51.316 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2319 ms
+2026-09-01 18:31:51.552 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-01 18:31:51.633 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2026-09-01 18:31:51.685 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-09-01 18:31:52.122 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-01 18:31:52.160 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-09-01 18:31:53.124 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@645d4639
+2026-09-01 18:31:53.125 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-09-01 18:31:53.571 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 18.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-01 18:31:54.664 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-01 18:31:57.052 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-01 18:31:57.450 DEBUG c.g.e.a.s.j.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-09-01 18:31:57.585 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-01 18:31:58.338 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-09-01 18:31:58.498 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-01 18:31:59.250 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-09-01 18:31:59.271 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-01 18:31:59.280 INFO  c.gestion.eventos.api.ApiApplication - Started ApiApplication in 11.13 seconds (process running for 11.774)
+2026-09-01 19:29:51.463 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2489b62e (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-09-01 19:29:51.488 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m57s113ms794µs700ns).
+2026-09-01 19:29:51.490 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@767980c1 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-09-01 19:29:51.493 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1fa860e6 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-09-01 19:29:51.497 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2e9b8272 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-09-01 19:29:51.499 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@545e17b (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-09-01 19:29:51.501 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@3f00169a (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-09-01 19:29:51.505 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@63f3eecc (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-09-01 19:29:51.509 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@110978d2 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-09-01 19:29:51.511 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@3b6d0db1 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-09-01 19:29:51.513 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@4e67880 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-09-01 21:24:40.407 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-01 21:24:40.409 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-01 21:24:40.432 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 23 ms
+2026-09-01 21:24:42.489 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 1886 ms
+2026-09-01 21:42:54.790 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-01 21:42:54.813 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-09-01 21:42:54.820 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-01 21:42:54.826 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-09-01 21:42:55.496 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

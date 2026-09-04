@@ -1,0 +1,109 @@
+2026-09-03 16:40:18.953 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-09-03 16:40:19.029 INFO  c.gestion.eventos.api.ApiApplication - Starting ApiApplication using Java 24.0.1 with PID 20928 (D:\Francis\PROYECTOS\Pry_technologyInt_Eventos\api-eventos-tech-main\target\classes started by franc in D:\Francis\PROYECTOS\Pry_technologyInt_Eventos\api-eventos-tech-main)
+2026-09-03 16:40:19.030 DEBUG c.gestion.eventos.api.ApiApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2026-09-03 16:40:19.030 INFO  c.gestion.eventos.api.ApiApplication - The following 1 profile is active: "dev"
+2026-09-03 16:40:20.424 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-03 16:40:20.603 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 163 ms. Found 5 JPA repository interfaces.
+2026-09-03 16:40:21.492 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-03 16:40:21.516 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-03 16:40:21.519 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-03 16:40:21.520 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2026-09-03 16:40:21.614 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-09-03 16:40:21.614 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2534 ms
+2026-09-03 16:40:21.862 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-03 16:40:21.940 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2026-09-03 16:40:22.001 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-09-03 16:40:22.433 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-03 16:40:22.481 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-09-03 16:40:24.151 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@9cc0505
+2026-09-03 16:40:24.153 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-09-03 16:40:24.587 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 18.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-03 16:40:25.618 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-03 16:40:27.834 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-03 16:40:28.241 DEBUG c.g.e.a.s.j.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-09-03 16:40:28.378 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-03 16:40:29.102 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-09-03 16:40:29.271 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-03 16:40:30.075 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-09-03 16:40:30.101 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-03 16:40:30.111 INFO  c.gestion.eventos.api.ApiApplication - Started ApiApplication in 11.967 seconds (process running for 12.737)
+2026-09-03 16:50:40.821 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-03 16:50:40.821 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-03 16:50:40.822 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-09-03 16:50:41.662 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 414 ms
+2026-09-03 18:01:39.083 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 0, size 10, sort: name: ASC].
+2026-09-03 18:01:40.397 DEBUG c.g.e.api.controller.EventController - Devolviendo 60 eventos paginados.
+2026-09-03 18:01:40.403 WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-09-03 18:03:22.618 INFO  c.g.e.api.controller.EventController - Recibida solicitud para crear evento: XVIII Congreso de Ciber -Seguridad
+2026-09-03 18:03:23.286 DEBUG c.g.e.api.controller.EventController - Evento creado exitosamente...XVIII Congreso de Ciber -Seguridad
+2026-09-03 18:03:23.456 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 0, size 10, sort: name: ASC].
+2026-09-03 18:03:24.588 DEBUG c.g.e.api.controller.EventController - Devolviendo 61 eventos paginados.
+2026-09-03 18:03:37.869 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 1, size 10, sort: name: ASC].
+2026-09-03 18:03:39.002 DEBUG c.g.e.api.controller.EventController - Devolviendo 61 eventos paginados.
+2026-09-03 18:03:43.636 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 2, size 10, sort: name: ASC].
+2026-09-03 18:03:44.877 DEBUG c.g.e.api.controller.EventController - Devolviendo 61 eventos paginados.
+2026-09-03 18:04:17.625 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 0, size 10, sort: name: ASC].
+2026-09-03 18:04:18.762 DEBUG c.g.e.api.controller.EventController - Devolviendo 12 eventos paginados.
+2026-09-03 18:04:33.177 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 1, size 10, sort: name: ASC].
+2026-09-03 18:04:33.512 DEBUG c.g.e.api.controller.EventController - Devolviendo 12 eventos paginados.
+2026-09-03 18:04:56.849 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 0, size 10, sort: name: ASC].
+2026-09-03 18:04:57.903 DEBUG c.g.e.api.controller.EventController - Devolviendo 61 eventos paginados.
+2026-09-03 18:05:09.242 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 0, size 10, sort: name: ASC].
+2026-09-03 18:05:09.704 DEBUG c.g.e.api.controller.EventController - Devolviendo 3 eventos paginados.
+2026-09-03 18:05:37.201 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 0, size 10, sort: name: ASC].
+2026-09-03 18:05:38.258 DEBUG c.g.e.api.controller.EventController - Devolviendo 61 eventos paginados.
+2026-09-03 18:05:50.463 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 1, size 10, sort: name: ASC].
+2026-09-03 18:05:51.511 DEBUG c.g.e.api.controller.EventController - Devolviendo 61 eventos paginados.
+2026-09-03 18:05:53.147 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 2, size 10, sort: name: ASC].
+2026-09-03 18:05:54.211 DEBUG c.g.e.api.controller.EventController - Devolviendo 61 eventos paginados.
+2026-09-03 18:05:56.150 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 3, size 10, sort: name: ASC].
+2026-09-03 18:05:57.193 DEBUG c.g.e.api.controller.EventController - Devolviendo 61 eventos paginados.
+2026-09-03 18:05:59.908 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 4, size 10, sort: name: ASC].
+2026-09-03 18:06:00.950 DEBUG c.g.e.api.controller.EventController - Devolviendo 61 eventos paginados.
+2026-09-03 18:06:03.541 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 5, size 10, sort: name: ASC].
+2026-09-03 18:06:04.577 DEBUG c.g.e.api.controller.EventController - Devolviendo 61 eventos paginados.
+2026-09-03 18:06:18.839 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 0, size 10, sort: name: ASC].
+2026-09-03 18:06:19.248 DEBUG c.g.e.api.controller.EventController - Devolviendo 2 eventos paginados.
+2026-09-03 18:06:36.827 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 0, size 10, sort: name: ASC].
+2026-09-03 18:06:37.931 DEBUG c.g.e.api.controller.EventController - Devolviendo 61 eventos paginados.
+2026-09-03 18:06:54.043 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 0, size 10, sort: name: ASC].
+2026-09-03 18:06:54.437 DEBUG c.g.e.api.controller.EventController - Devolviendo 2 eventos paginados.
+2026-09-03 18:07:27.248 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 0, size 10, sort: name: ASC].
+2026-09-03 18:07:28.290 DEBUG c.g.e.api.controller.EventController - Devolviendo 61 eventos paginados.
+2026-09-03 18:07:53.359 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 1, size 10, sort: name: ASC].
+2026-09-03 18:07:54.429 DEBUG c.g.e.api.controller.EventController - Devolviendo 61 eventos paginados.
+2026-09-03 18:08:01.866 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 0, size 10, sort: name: ASC].
+2026-09-03 18:08:02.281 DEBUG c.g.e.api.controller.EventController - Devolviendo 2 eventos paginados.
+2026-09-03 18:08:10.993 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 0, size 10, sort: name: ASC].
+2026-09-03 18:08:12.042 DEBUG c.g.e.api.controller.EventController - Devolviendo 61 eventos paginados.
+2026-09-03 18:08:18.734 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 0, size 10, sort: name: ASC].
+2026-09-03 18:08:19.011 DEBUG c.g.e.api.controller.EventController - Devolviendo 1 eventos paginados.
+2026-09-03 18:11:17.990 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 0, size 10, sort: name: ASC].
+2026-09-03 18:11:20.297 DEBUG c.g.e.api.controller.EventController - Devolviendo 61 eventos paginados.
+2026-09-03 18:12:04.742 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 0, size 10, sort: name: ASC].
+2026-09-03 18:12:05.810 DEBUG c.g.e.api.controller.EventController - Devolviendo 61 eventos paginados.
+2026-09-03 18:17:58.372 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 0, size 10, sort: name: ASC].
+2026-09-03 18:17:59.422 DEBUG c.g.e.api.controller.EventController - Devolviendo 61 eventos paginados.
+2026-09-03 18:18:11.210 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 0, size 10, sort: name: ASC].
+2026-09-03 18:18:11.484 DEBUG c.g.e.api.controller.EventController - Devolviendo 1 eventos paginados.
+2026-09-03 18:18:41.123 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 0, size 10, sort: name: ASC].
+2026-09-03 18:18:42.214 DEBUG c.g.e.api.controller.EventController - Devolviendo 61 eventos paginados.
+2026-09-03 18:26:19.090 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 0, size 10, sort: name: ASC].
+2026-09-03 18:26:20.070 DEBUG c.g.e.api.controller.EventController - Devolviendo 61 eventos paginados.
+2026-09-03 18:26:48.354 INFO  c.g.e.api.controller.EventController - Recibida solicitud GET /events con nombre 'null' y paginación Page request [number: 0, size 10, sort: name: ASC].
+2026-09-03 18:26:49.331 DEBUG c.g.e.api.controller.EventController - Devolviendo 61 eventos paginados.
+2026-09-03 18:27:09.726 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-03 18:27:09.735 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-09-03 18:27:09.741 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-03 18:27:09.745 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-09-03 18:27:10.400 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
