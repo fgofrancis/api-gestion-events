@@ -92,7 +92,7 @@ public class SecurityConfig {
         configuration.setAllowedOrigins(Arrays.asList(
                 "http://localhost:4200",
                 "http://localhost:3000",
-                "https://voluble-fenglisu-3a6b4d.netlify.app/"
+                "https://eventos-cosmos-digital.netlify.app/"
         ));
         configuration.setAllowedMethods(Arrays.asList("GET","POST","PUT", "DELETE", "OPTIONS", "PATCH"));
         configuration.setAllowedHeaders(Arrays.asList(
